@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     const data = req.body;
 
     const client = await MongoClient.connect(
-      "mongodb+srv://casperludwiczak:casperludwiczak@cluster0.bgp0diy.mongodb.net/meetups?retryWrites=true&w=majority"
+      "mongodb+srv://casperludwiczak:hplys4Cr9IlHDpWn@cluster0.bgp0diy.mongodb.net/meetups?retryWrites=true&w=majority"
     );
     const db = client.db();
     const meetupsCollection = db.collection("meetups");
